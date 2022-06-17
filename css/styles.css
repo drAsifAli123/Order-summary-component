@@ -1,0 +1,100 @@
+/*---------------------------------- Tag Selectors ---------------------------------------*/
+body{
+  font-family: 'Red Hat Display', sans-serif;
+  background-image: url(../images/pattern-background-desktop.svg);
+  background-color: hsl(225, 100%, 94%);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+  text-align: center;
+  margin: 0;
+}
+h1{
+  font-weight: 900;
+}
+h3{
+  margin-bottom: 5px;
+}
+p{
+  font-size: 16px;
+  color: hsl(224, 23%, 55%);
+  margin: 20px;
+}
+/* container-fluid div */
+.container-fluid{
+  background-color: #fff;
+  border-radius: 5% 5% 5% 5% ;
+  width: 375px;
+  height: 570px;
+  margin: 10% auto;
+  margin-bottom: 100px;
+}
+/* Top Image */
+.card-top-image{
+  border-radius: 5% 5% 0 0;
+  width: 375px;
+margin:0;
+}
+/* Mid-Annual-Plan-Div */
+.annual-plan-div{
+  background-color: hsl(225, 100%, 98%);
+  margin: 20px;
+  border-radius: 5%;
+}
+.music-icon-div{
+  display: inline-block;
+  position: relative;
+  right: 40px;
+  top: 5px;
+}
+.annual-plan{
+  display:inline-block;
+  text-align: left;
+  position: relative;
+  right: 30px;
+  top: 2px;
+}
+.annual-plan p{
+  margin-top: 0;
+  margin-left: 0;
+}
+.change-div{
+  display: inline-block;
+  position: relative;
+  left: 30px;
+  bottom: 10px;
+}
+.change-anchor:hover{
+  color: #646FD4;
+  text-decoration: none;
+}
+/* Proceed-To-Payment-Button */
+.btn{
+  display: block;
+  text-align: center;
+  margin: 20px;
+  border-radius: 5%;
+}
+button{
+  background-color: hsl(245, 75%, 52%);
+  color: #fff;
+  border: 0;
+  border-radius: 8px;
+  margin: 0;
+  width: 100%;
+  padding: 10px 0;
+  box-shadow: 0 8px 16px 0 hsl(224, 23%, 55%);
+}
+button:hover{
+  background-color: #646FD4;
+}
+/* Cancel-Order-Anchor */
+.cancel-order{
+  text-decoration: none;
+}
+.cancel-order:hover{
+  color: #000;
+}
+/*---------------------------------- Footer Section ---------------------------------------*/
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
